@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A974ADCB19EA792100DAD167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974ADCA19EA792100DAD167 /* AppDelegate.swift */; };
+		A974ADCD19EA792100DAD167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974ADCC19EA792100DAD167 /* ViewController.swift */; };
+		A974ADD019EA792100DAD167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A974ADCE19EA792100DAD167 /* Main.storyboard */; };
+		A974ADD219EA792100DAD167 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A974ADD119EA792100DAD167 /* Images.xcassets */; };
+		A974ADD519EA792200DAD167 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A974ADD319EA792200DAD167 /* LaunchScreen.xib */; };
+		A974ADE119EA792200DAD167 /* redButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974ADE019EA792200DAD167 /* redButtonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A974ADDB19EA792200DAD167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A974ADBD19EA792100DAD167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A974ADC419EA792100DAD167;
+			remoteInfo = redButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A974ADC519EA792100DAD167 /* redButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A974ADC919EA792100DAD167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A974ADCA19EA792100DAD167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A974ADCC19EA792100DAD167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A974ADCF19EA792100DAD167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A974ADD119EA792100DAD167 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A974ADD419EA792200DAD167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A974ADDA19EA792200DAD167 /* redButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A974ADDF19EA792200DAD167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A974ADE019EA792200DAD167 /* redButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redButtonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A974ADC219EA792100DAD167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A974ADD719EA792200DAD167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A974ADBC19EA792100DAD167 = {
+			isa = PBXGroup;
+			children = (
+				A974ADC719EA792100DAD167 /* redButton */,
+				A974ADDD19EA792200DAD167 /* redButtonTests */,
+				A974ADC619EA792100DAD167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A974ADC619EA792100DAD167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A974ADC519EA792100DAD167 /* redButton.app */,
+				A974ADDA19EA792200DAD167 /* redButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A974ADC719EA792100DAD167 /* redButton */ = {
+			isa = PBXGroup;
+			children = (
+				A974ADCA19EA792100DAD167 /* AppDelegate.swift */,
+				A974ADCC19EA792100DAD167 /* ViewController.swift */,
+				A974ADCE19EA792100DAD167 /* Main.storyboard */,
+				A974ADD119EA792100DAD167 /* Images.xcassets */,
+				A974ADD319EA792200DAD167 /* LaunchScreen.xib */,
+				A974ADC819EA792100DAD167 /* Supporting Files */,
+			);
+			path = redButton;
+			sourceTree = "<group>";
+		};
+		A974ADC819EA792100DAD167 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A974ADC919EA792100DAD167 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A974ADDD19EA792200DAD167 /* redButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A974ADE019EA792200DAD167 /* redButtonTests.swift */,
+				A974ADDE19EA792200DAD167 /* Supporting Files */,
+			);
+			path = redButtonTests;
+			sourceTree = "<group>";
+		};
+		A974ADDE19EA792200DAD167 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A974ADDF19EA792200DAD167 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A974ADC419EA792100DAD167 /* redButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A974ADE419EA792200DAD167 /* Build configuration list for PBXNativeTarget "redButton" */;
+			buildPhases = (
+				A974ADC119EA792100DAD167 /* Sources */,
+				A974ADC219EA792100DAD167 /* Frameworks */,
+				A974ADC319EA792100DAD167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redButton;
+			productName = redButton;
+			productReference = A974ADC519EA792100DAD167 /* redButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A974ADD919EA792200DAD167 /* redButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A974ADE719EA792200DAD167 /* Build configuration list for PBXNativeTarget "redButtonTests" */;
+			buildPhases = (
+				A974ADD619EA792200DAD167 /* Sources */,
+				A974ADD719EA792200DAD167 /* Frameworks */,
+				A974ADD819EA792200DAD167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A974ADDC19EA792200DAD167 /* PBXTargetDependency */,
+			);
+			name = redButtonTests;
+			productName = redButtonTests;
+			productReference = A974ADDA19EA792200DAD167 /* redButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A974ADBD19EA792100DAD167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Alphaweb;
+				TargetAttributes = {
+					A974ADC419EA792100DAD167 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A974ADD919EA792200DAD167 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A974ADC419EA792100DAD167;
+					};
+				};
+			};
+			buildConfigurationList = A974ADC019EA792100DAD167 /* Build configuration list for PBXProject "redButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A974ADBC19EA792100DAD167;
+			productRefGroup = A974ADC619EA792100DAD167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A974ADC419EA792100DAD167 /* redButton */,
+				A974ADD919EA792200DAD167 /* redButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A974ADC319EA792100DAD167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A974ADD019EA792100DAD167 /* Main.storyboard in Resources */,
+				A974ADD519EA792200DAD167 /* LaunchScreen.xib in Resources */,
+				A974ADD219EA792100DAD167 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A974ADD819EA792200DAD167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A974ADC119EA792100DAD167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A974ADCD19EA792100DAD167 /* ViewController.swift in Sources */,
+				A974ADCB19EA792100DAD167 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A974ADD619EA792200DAD167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A974ADE119EA792200DAD167 /* redButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A974ADDC19EA792200DAD167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A974ADC419EA792100DAD167 /* redButton */;
+			targetProxy = A974ADDB19EA792200DAD167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A974ADCE19EA792100DAD167 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A974ADCF19EA792100DAD167 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A974ADD319EA792200DAD167 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A974ADD419EA792200DAD167 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A974ADE219EA792200DAD167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A974ADE319EA792200DAD167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A974ADE519EA792200DAD167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = redButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A974ADE619EA792200DAD167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = redButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A974ADE819EA792200DAD167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = redButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redButton.app/redButton";
+			};
+			name = Debug;
+		};
+		A974ADE919EA792200DAD167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = redButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redButton.app/redButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A974ADC019EA792100DAD167 /* Build configuration list for PBXProject "redButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A974ADE219EA792200DAD167 /* Debug */,
+				A974ADE319EA792200DAD167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A974ADE419EA792200DAD167 /* Build configuration list for PBXNativeTarget "redButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A974ADE519EA792200DAD167 /* Debug */,
+				A974ADE619EA792200DAD167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A974ADE719EA792200DAD167 /* Build configuration list for PBXNativeTarget "redButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A974ADE819EA792200DAD167 /* Debug */,
+				A974ADE919EA792200DAD167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A974ADBD19EA792100DAD167 /* Project object */;
+}
