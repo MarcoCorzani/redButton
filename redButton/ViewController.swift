@@ -15,18 +15,13 @@ class ViewController: UIViewController {
     
     var currentIndex = 0
     var audioPlayer: AVAudioPlayer?
-    
-    
+       
     
     @IBOutlet weak var dontPressTheRedButtonLabel: UILabel!
     
     @IBOutlet weak var ImageViewBang: UIImageView!
 
-    @IBOutlet weak var test: UIButton!
     
-    
-    
-   
     
     
     
@@ -38,7 +33,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        
+      dontPressTheRedButtonLabel.text = shouts[0]
         
       
 }
@@ -48,38 +43,43 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-        @IBAction func redButtonPressed(sender: UIButton) {
     
         
+      
+        @IBAction func redButtonPressed(sender: UIButton) {
+            
+        
+            
         var anzahlShouts = shouts.count
         
-        let shoutOut = shouts[currentIndex]
         
         
-        if currentIndex < anzahlShouts {
+        
+            if currentIndex < anzahlShouts {
             
-            currentIndex += 1
-        
-            dontPressTheRedButtonLabel.text = ("\(shoutOut)")
-        
-     //    if currentIndex >= anzahlShouts {
+                currentIndex += 1
+                
+                let shoutOut = shouts[currentIndex]
+                
+                dontPressTheRedButtonLabel.text = ("\(shoutOut)")
             
-     //       currentIndex = 0
-            
-      //     }
+                println("\(shoutOut)"); println(currentIndex)
         
-            if currentIndex >= anzahlShouts   {
+            if currentIndex >= anzahlShouts - 1   {
             
                 // Entfernt den UIButton "redButtonPressed" mit dem Parameter "sender"
                 
-                [sender.removeFromSuperview()]
+               // [sender.removeFromSuperview()]
                 
                 ImageViewBang.hidden = false
                 
-                                
+                
+                
                
                 
+                
                 // audioPlayer wird oben deffiniert
+                
                 
                 if let path = NSBundle.mainBundle().pathForResource("Byeball", ofType: "wav") {
                     audioPlayer = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: path), fileTypeHint: "wav", error: nil)
@@ -87,25 +87,39 @@ class ViewController: UIViewController {
                     if let sound = audioPlayer {
                         
                         sound.prepareToPlay()
-                        
-                        sound.play()
-                }
-            }
 
+                        sound.play()
+                
+                    
+                    }
+                }
+                
+                
+            }
+        
+        
         }
-        
-        
-        
-        
-    }
-        
-        
-        
         
     }
     
 
-   
-
+    @IBAction func reloadButton(sender: UIButton) {
+        
+        
+        
+       
+        
+        currentIndex = 0
+      
+        ImageViewBang.hidden = true
+       
+        var anzahlShouts = shouts.count
+        
+        let shoutOut = shouts[currentIndex]
+       
+        dontPressTheRedButtonLabel.text = ("\(shoutOut)")
+    }
+                
+                
 }
 

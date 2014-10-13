@@ -28,7 +28,7 @@
                                     <action selector="redButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lR0-MQ-Wv2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't press the red button!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEI-jZ-2CG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEI-jZ-2CG">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -37,12 +37,6 @@
                                     <rect key="frame" x="32" y="308" width="310" height="52"/>
                                 </variation>
                             </label>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bang" translatesAutoresizingMaskIntoConstraints="NO" id="Ycg-8B-Vy8">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="167" width="359" height="253"/>
-                                </variation>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSn-JC-unS">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Reload">
@@ -52,23 +46,32 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="278" y="593" width="81" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="reloadButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Igo-WX-QqD"/>
+                                </connections>
                             </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bang" translatesAutoresizingMaskIntoConstraints="NO" id="Ycg-8B-Vy8">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="8" y="134" width="359" height="253"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.91493291440000002" green="0.91493291440000002" blue="0.91493291440000002" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="M1p-4D-qNz"/>
                                 <exclude reference="tEI-jZ-2CG"/>
-                                <exclude reference="Ycg-8B-Vy8"/>
                                 <exclude reference="hSn-JC-unS"/>
+                                <exclude reference="Ycg-8B-Vy8"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="M1p-4D-qNz"/>
                                 <include reference="tEI-jZ-2CG"/>
-                                <include reference="Ycg-8B-Vy8"/>
                                 <include reference="hSn-JC-unS"/>
+                                <include reference="Ycg-8B-Vy8"/>
                             </mask>
                         </variation>
                     </view>
@@ -78,9 +81,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="ImageViewBang" destination="Ycg-8B-Vy8" id="eTv-CB-uo5"/>
-                        <outlet property="Test" destination="M1p-4D-qNz" id="n8b-fg-N3p"/>
                         <outlet property="dontPressTheRedButtonLabel" destination="tEI-jZ-2CG" id="DtL-nz-Pbq"/>
-                        <outlet property="test" destination="M1p-4D-qNz" id="eH6-2b-CGj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

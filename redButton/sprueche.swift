@@ -10,4 +10,4 @@ import Foundation
 import UIKit
 
 
-var shouts = ["Dont press it once more!", "Dont do that again!", "I beg you, dont do it again!", ""]
+var shouts = ["Dont press the red button!", "Dont press it once more!", "Dont do that again!", "I beg you, dont do it again!", ""]
