@@ -13,6 +13,8 @@
 		A974ADD219EA792100DAD167 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A974ADD119EA792100DAD167 /* Images.xcassets */; };
 		A974ADD519EA792200DAD167 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A974ADD319EA792200DAD167 /* LaunchScreen.xib */; };
 		A974ADE119EA792200DAD167 /* redButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974ADE019EA792200DAD167 /* redButtonTests.swift */; };
+		A974ADEB19EAF2E000DAD167 /* Byeball.wav in Resources */ = {isa = PBXBuildFile; fileRef = A974ADEA19EAF2E000DAD167 /* Byeball.wav */; };
+		A974ADEE19EAFFA600DAD167 /* sprueche.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974ADED19EAFFA600DAD167 /* sprueche.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A974ADDA19EA792200DAD167 /* redButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A974ADDF19EA792200DAD167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A974ADE019EA792200DAD167 /* redButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redButtonTests.swift; sourceTree = "<group>"; };
+		A974ADEA19EAF2E000DAD167 /* Byeball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Byeball.wav; sourceTree = "<group>"; };
+		A974ADED19EAFFA600DAD167 /* sprueche.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sprueche.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				A974ADCA19EA792100DAD167 /* AppDelegate.swift */,
 				A974ADCC19EA792100DAD167 /* ViewController.swift */,
+				A974ADEC19EAFF8100DAD167 /* Models */,
 				A974ADCE19EA792100DAD167 /* Main.storyboard */,
 				A974ADD119EA792100DAD167 /* Images.xcassets */,
 				A974ADD319EA792200DAD167 /* LaunchScreen.xib */,
@@ -90,6 +95,7 @@
 		A974ADC819EA792100DAD167 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A974ADEA19EAF2E000DAD167 /* Byeball.wav */,
 				A974ADC919EA792100DAD167 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +116,14 @@
 				A974ADDF19EA792200DAD167 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A974ADEC19EAFF8100DAD167 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A974ADED19EAFFA600DAD167 /* sprueche.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +208,7 @@
 			files = (
 				A974ADD019EA792100DAD167 /* Main.storyboard in Resources */,
 				A974ADD519EA792200DAD167 /* LaunchScreen.xib in Resources */,
+				A974ADEB19EAF2E000DAD167 /* Byeball.wav in Resources */,
 				A974ADD219EA792100DAD167 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +229,7 @@
 			files = (
 				A974ADCD19EA792100DAD167 /* ViewController.swift in Sources */,
 				A974ADCB19EA792100DAD167 /* AppDelegate.swift in Sources */,
+				A974ADEE19EAFFA600DAD167 /* sprueche.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				A974ADE619EA792200DAD167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A974ADE719EA792200DAD167 /* Build configuration list for PBXNativeTarget "redButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				A974ADE919EA792200DAD167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
