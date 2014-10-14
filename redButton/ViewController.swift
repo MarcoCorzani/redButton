@@ -44,11 +44,10 @@ class ViewController: UIViewController {
     }
 
     
-        
-      
+    
         @IBAction func redButtonPressed(sender: UIButton) {
             
-        
+         
             
         var anzahlShouts = shouts.count
         
@@ -73,7 +72,7 @@ class ViewController: UIViewController {
                 
                 ImageViewBang.hidden = false
                 
-                
+                self.redButtonOutlet.hidden = true
                 
                
                 
@@ -101,13 +100,12 @@ class ViewController: UIViewController {
         }
         
     }
+    @IBOutlet weak var redButtonOutlet: UIButton!
     
 
     @IBAction func reloadButton(sender: UIButton) {
         
-        
-        
-       
+    self.redButtonOutlet.hidden = false
         
         currentIndex = 0
       

@@ -18,9 +18,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1p-4D-qNz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="RedButton" image="redButton">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" title="RedButton" image="redButton"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="116" y="388" width="142" height="141"/>
                                 </variation>
@@ -53,7 +51,7 @@
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bang" translatesAutoresizingMaskIntoConstraints="NO" id="Ycg-8B-Vy8">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="8" y="134" width="359" height="253"/>
+                                    <rect key="frame" x="8" y="173" width="359" height="253"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -82,6 +80,7 @@
                     <connections>
                         <outlet property="ImageViewBang" destination="Ycg-8B-Vy8" id="eTv-CB-uo5"/>
                         <outlet property="dontPressTheRedButtonLabel" destination="tEI-jZ-2CG" id="DtL-nz-Pbq"/>
+                        <outlet property="redButtonOutlet" destination="M1p-4D-qNz" id="z3e-Ix-2hL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
