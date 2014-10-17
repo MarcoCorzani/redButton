@@ -8,6 +8,8 @@
 
 import UIKit
 import AVFoundation
+import AudioToolbox
+
 
 
 class ViewController: UIViewController {
@@ -21,9 +23,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var ImageViewBang: UIImageView!
 
-    
-    
-    
+        
     
    
     
@@ -35,8 +35,9 @@ class ViewController: UIViewController {
 
       dontPressTheRedButtonLabel.text = shouts[0]
         
-      
-}
+        
+    
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -44,17 +45,14 @@ class ViewController: UIViewController {
     }
 
     
-    
-        @IBAction func redButtonPressed(sender: UIButton) {
+    @IBAction func redButtonPressed(sender: UIButton) {
             
          
             
         var anzahlShouts = shouts.count
         
         
-        
-        
-            if currentIndex < anzahlShouts {
+        if currentIndex < anzahlShouts {
             
                 currentIndex += 1
                 
@@ -62,19 +60,16 @@ class ViewController: UIViewController {
                 
                 dontPressTheRedButtonLabel.text = ("\(shoutOut)")
             
-                println("\(shoutOut)"); println(currentIndex)
         
             if currentIndex >= anzahlShouts - 1   {
             
-                // Entfernt den UIButton "redButtonPressed" mit dem Parameter "sender"
-                
-               // [sender.removeFromSuperview()]
                 
                 ImageViewBang.hidden = false
                 
                 self.redButtonOutlet.hidden = true
                 
-               
+                //Macht Beep wenn keine Vibration vorhanden. Statt desse "PlaySystemSound" vibriert wenn vorhanden, sonst nix!
+                AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
                 
                 
                 // audioPlayer wird oben deffiniert
