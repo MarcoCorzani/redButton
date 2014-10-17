@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
     
    
-    
+    //Hilfe
 
     
     override func viewDidLoad() {
